@@ -1,0 +1,5 @@
+<div>
+  <input type="number" [(ngModel)]="inputNumber" placeholder="Enter a number">
+  <button (click)="convert()">Convert</button>
+  <p *ngIf="convertedText">Result: {{ convertedText | digitToText }}</p>
+</div>
