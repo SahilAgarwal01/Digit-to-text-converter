@@ -1,6 +1,4 @@
-<div>
-  <h1>Digit to Text converter</h1>
-  <input type="number" [(ngModel)]="inputNumber" placeholder="Enter a number">
-  <button (click)="convert()">Convert</button>
-  <p *ngIf="convertedText">Result: {{ convertedText | digitToText }}</p>
-</div>  
+<div class="color">
+  <h1>Digit to Text Converter</h1>
+  <app-number-converter></app-number-converter>
+</div>
